@@ -1,5 +1,7 @@
 # 2. OCP - Principio Abierto/Cerrado
 # Código que viola OCP
+# ¿Porque esta mal?
+# - La clase CalculadoraArea necesita ser modificada cada vez que se agrega una nueva forma geométrica.
 
 class CalculadoraArea:
     def calcular_area(self, forma, datos):

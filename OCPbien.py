@@ -1,4 +1,5 @@
 # Código corregido aplicando OCP
+# Ahora la clase CalculadoraArea está abierta para extensión pero cerrada para modificación
 
 from abc import ABC, abstractmethod
 

@@ -1,5 +1,8 @@
 # 1. SRP - Principio de Responsabilidad Única
 # Código que viola SRP
+# ¿Porque esta mal? 
+# - La clase Usuario tiene múltiples responsabilidades: gestionar datos del usuario,
+# guardar en base de datos y enviar emails.
 
 class Usuario:
     def __init__(self, nombre, email):

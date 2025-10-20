@@ -1,4 +1,5 @@
 # Código corregido aplicando LSP
+# Ahora las clases Rectangulo y Cuadrado pueden ser sustituidas sin afectar el comportamiento esperado
 
 from abc import ABC, abstractmethod
 

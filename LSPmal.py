@@ -1,5 +1,8 @@
 # 3. LSP - Principio de Sustitución de Liskov
 # Código que viola LSP
+# ¿Porque esta mal?
+# - La clase Cuadrado hereda de Rectangulo pero altera su comportamiento esperado,
+# lo que puede causar errores cuando se usa un Cuadrado en lugar de un Rectangulo.
 
 class Rectangulo:
     def __init__(self, ancho, alto):

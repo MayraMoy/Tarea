@@ -1,4 +1,8 @@
 # Código corregido aplicando SRP
+# Ahora cada clase tiene una única responsabilidad
+# La clase Usuario solo gestiona datos del usuario
+# La clase UsuarioRepositorio maneja la persistencia
+# La clase EmailService se encarga del envío de emails
 
 class Usuario:
     def __init__(self, nombre, email):
