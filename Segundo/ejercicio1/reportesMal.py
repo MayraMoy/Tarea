@@ -29,4 +29,5 @@ class GeneradorReportes:
     def guardar_en_archivo(self, contenido, nombre_archivo):
         # Guarda el reporte en un archivo
         with open(nombre_archivo, 'w') as f:f.write(contenido)
-        
+
+# Mayra Moyano

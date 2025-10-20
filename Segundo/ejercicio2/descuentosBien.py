@@ -55,3 +55,5 @@ class ClienteEmpleado(Cliente):
 class CalculadoraDescuentos:
     def calcular_descuento(self, cliente, monto_compra):
         return cliente.calcular_descuento(monto_compra)
+
+# Mayra Moyano

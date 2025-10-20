@@ -38,3 +38,4 @@ class ClienteEstudiante(Cliente):
             return 0 # No hay descuento para compras pequeñas
         return monto_compra * 0.10
 
+# Mayra Moyano
